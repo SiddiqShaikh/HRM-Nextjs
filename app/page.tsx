@@ -1,8 +1,6 @@
+import { redirect } from "next/navigation";
 
-export default function Home() {
-  return (
-    <main className="">
-     Home Page
-    </main>
-  );
+export default async function HomePage() {
+  redirect('/dashboard');
 }
+
